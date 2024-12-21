@@ -51,4 +51,4 @@ jobs:
           # Add, commit, and push changes to the repository
           git add .
           git commit -m "Automated update of site content" || echo "No changes to commit"
-          git push https://$GH_PAT@github.com/abdullahkhana/misaalbcpjt.git HEAD:main
+          git push https://$GH_PAT@github.com/abdullahkhana/misaalbcpjt HEAD:main
