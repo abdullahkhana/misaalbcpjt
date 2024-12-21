@@ -45,7 +45,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           # Configure git user info
-          git config --local user.email "abdullahkhanaazeem@gmail.com"
+          git config --local user.email "abdullahkhanazeem@gmail.com"
           git config --local user.name "abdullahkhana"
           
           # Add, commit, and push changes to the repository
